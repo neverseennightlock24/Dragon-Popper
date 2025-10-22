@@ -11,7 +11,7 @@ def get_game_duration():
             if game_duration > 0 and game_duration < 10000:
                 return game_duration
             else:
-                print("Please enter a number less than 10,000.")
+                print("Please enter a number between 0 and 10,000.")
         except ValueError:
             print("Please enter a valid number.")
 
